@@ -1,8 +1,8 @@
 <?php
 
-namespace Laravelista\Comments;
+namespace Kanhaiyanigam05\Comments;
 
-use Laravelista\Comments\Comment;
+use Kanhaiyanigam05\Comments\Comment;
 
 class CommentPolicy
 {

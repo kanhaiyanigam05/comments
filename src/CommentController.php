@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravelista\Comments;
+namespace Kanhaiyanigam05\Comments;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Config;

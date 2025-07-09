@@ -7,26 +7,26 @@ return [
      * CustomComment model extending the Comment model shipped with the
      * package and change this configuration option to their extended model.
      */
-    'model' => \Laravelista\Comments\Comment::class,
+    'model' => \Kanhaiyanigam05\Comments\Comment::class,
 
     /**
      * You can customize the behaviour of these permissions by
      * creating your own and pointing to it here.
      */
     'permissions' => [
-        'create-comment' => 'Laravelista\Comments\CommentPolicy@create',
-        'delete-comment' => 'Laravelista\Comments\CommentPolicy@delete',
-        'edit-comment' => 'Laravelista\Comments\CommentPolicy@update',
-        'reply-to-comment' => 'Laravelista\Comments\CommentPolicy@reply',
+        'create-comment' => 'Kanhaiyanigam05\Comments\CommentPolicy@create',
+        'delete-comment' => 'Kanhaiyanigam05\Comments\CommentPolicy@delete',
+        'edit-comment' => 'Kanhaiyanigam05\Comments\CommentPolicy@update',
+        'reply-to-comment' => 'Kanhaiyanigam05\Comments\CommentPolicy@reply',
     ],
 
     /**
      * The Comment Controller.
      * Change this to your own implementation of the CommentController.
-     * You can use the \Laravelista\Comments\CommentControllerInterface
-     * or extend the \Laravelista\Comments\CommentController.
+     * You can use the \Kanhaiyanigam05\Comments\CommentControllerInterface
+     * or extend the \Kanhaiyanigam05\Comments\CommentController.
      */
-    'controller' => '\Laravelista\Comments\WebCommentController',
+    'controller' => '\Kanhaiyanigam05\Comments\WebCommentController',
 
     /**
      * Disable/enable the package routes.

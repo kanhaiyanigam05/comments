@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravelista\Comments;
+namespace Kanhaiyanigam05\Comments;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

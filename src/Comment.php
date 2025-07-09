@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravelista\Comments;
+namespace Kanhaiyanigam05\Comments;
 
 use Illuminate\Database\Eloquent\Model;
-use Laravelista\Comments\Events\CommentCreated;
-use Laravelista\Comments\Events\CommentUpdated;
-use Laravelista\Comments\Events\CommentDeleted;
+use Kanhaiyanigam05\Comments\Events\CommentCreated;
+use Kanhaiyanigam05\Comments\Events\CommentUpdated;
+use Kanhaiyanigam05\Comments\Events\CommentDeleted;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Config;
 
